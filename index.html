@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HiddenShop</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- shopping cart -->
+    <div id="cart">
+      <div class="cart-content">
+        <header id="cart-header">
+          <h2 class="cart-title">Your cart</h2>
+          <span class="close-cart">&times;</span>
+        </header>
+        <main id="cart-body">
+          <ul class="cart-menu">
+          </ul>
+        </main>
+        <p class="total">Total : <span class="total-counter">$0</span></p>
+        <footer id="cart-footer">
+          <a href="#">confirm</a>
+          <a href="#" id="clear-btn" onclick='clearCart()'>clear cart</a>
+        </footer>
+      </div>
+    </div>
+    <!--- navigation --->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-content">
+        <span class="nav-icon">
+          <i class="fas fa-bars bars-icon"></i>
+        </span>
+        <div class="menu">
+          <ul class="menu-container">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <div class="dropdown">
+              <li class="menu-item dropdown-menu" style="cursor: pointer">
+                <a href="#">Products</a
+                ><i class="fas fa-caret-down item-icon"></i>
+              </li>
+              <ul class="dropdown-content">
+                <a href="#mobiles"
+                  ><li class="dropdown-menu-item">Mobiles</li></a
+                >
+                <a href="#gameConsole">
+                  <li class="dropdown-menu-item">Game Consoles</li></a
+                >
+              </ul>
+            </div>
+            <li class="menu-item"><a href="#branches-title">Branches</a></li>
+            <li class="menu-item"><a href="#support">Support</a></li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus cart-icon"></i>
+            <span class="cart-num">0</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!--- navigation --->
+    <!--- header --->
+    <header class="header container-fluid" id="header">
+      <h1 class="header-title">HiddenShop</h1>
+      <p class="header-desc">Buy anything from anywhere!</p>
+      <i class="header-icon fas fa-shipping-fast"></i>
+    </header>
+    <!--- header --->
+
+    <!--- products --->
+
+    <section class="container products" id="mobiles">
+      <h2 class="product-title">Mobiles</h2>
+      <div class="product-content"></div>
+    </section>
+
+    <section class="container products" id="gameConsole">
+      <h2 class="product-title">Game console</h2>
+      <div class="product-content"></div>
+    </section>
+
+    <!--- products --->
+
+    <!--- Branches --->
+
+    <h2 id="branches-title" class="branches-title">Branches</h2>
+
+    <section id="branches" class="container-fluid">
+      <div class="branch-container">
+        <div class="branch-item">
+          <div class="branch-image">
+            <img
+              src="./images/cities/moscow.jpg"
+              alt="branch-item"
+              class="branch-image"
+            />
+            <span class="branch-name">Moscow</span>
+          </div>
+          <i class="more-info">more</i>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              asperiores accusantium dignissimos nostrum error? Dolores corporis
+              quis harum magnam, voluptatum ducimus modi inventore dolore quod
+              officia cum, unde maiores at.
+            </p>
+          </div>
+        </div>
+        <div class="branch-item">
+          <div class="branch-image">
+            <img
+              src="./images/cities/doha.jpg"
+              alt="branch-item"
+              class="branch-image"
+            />
+            <span class="branch-name">Doha</span>
+          </div>
+          <i class="more-info">more</i>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              dolor magnam nostrum a quos dolorum distinctio repellat eveniet
+              soluta aliquam sequi natus necessitatibus assumenda, maxime, odit
+              ipsa labore? Obcaecati, perspiciatis!
+            </p>
+          </div>
+        </div>
+        <div class="branch-item">
+          <div class="branch-image">
+            <img src="./images/cities/new-york.jpg" alt="branch-item" />
+            <span class="branch-name">New York</span>
+          </div>
+          <i class="more-info">more</i>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+              minima, in fuga deserunt illo nulla possimus nesciunt sed est
+              quasi corrupti at quas nobis voluptate distinctio, dolore eligendi
+              doloribus quo?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--- Branches --->
+
+    <!--- footer --->
+    <footer class="footer container-fluid">
+      <div class="footer_container">
+        <div class="footer-content">
+          <h2 class="footer-sec__title">Customer Service</h2>
+          <p class="footer-sec__desc">FAQ</p>
+          <p class="footer-sec__desc">Returns & refunds</p>
+          <p class="footer-sec__desc">Terms & conditions</p>
+          <p class="footer-sec__desc">Privacy Policy</p>
+        </div>
+        <div class="footer-content">
+          <h2 class="footer-sec__title" id="support">HiddenShop Store</h2>
+          <p class="footer-sec__desc">Store location</p>
+          <p class="footer-sec__desc">Store hours</p>
+          <p class="footer-sec__desc">Store events</p>
+          <p class="footer-sec__desc">HiddenShop Store support</p>
+        </div>
+        <div class="footer-content">
+          <h2 class="footer-sec__title" id="about-us">About us</h2>
+          <p class="footer-sec__desc">Our story</p>
+          <p class="footer-sec__desc">Careers with HiddenShop</p>
+          <p class="footer-sec__desc">News</p>
+        </div>
+        <div class="footer-content">
+          <h2 class="footer-sec__title">Follow us</h2>
+          <i class="footer-icon fab fa-facebook" title="Facebook"></i>
+          <i class="footer-icon fab fa-instagram" title="Instagram"></i>
+          <i class="footer-icon fab fa-pinterest" title="Pinterest"></i>
+        </div>
+      </div>
+    </footer>
+    <!--- footer --->
+    <div class="to-top-btn_container">
+      <a href="#header"
+        ><i class="to-top-btn fas fa-angle-up" title="Up"></i
+      ></a>
+    </div>
+    <div class="copyright" style="text-align: center">
+      <p>Copyright © 2022 by HiddenShop</p>
+    </div>
+    <script src="scripts/products.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
