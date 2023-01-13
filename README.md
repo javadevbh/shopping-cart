@@ -3,7 +3,7 @@
 </div>
 
 ---
-# onlineshop
+# OnlineShop
 ## [review online](https://javadbahrami-hiddenshop.netlify.app/)
 ---
 ## tips
