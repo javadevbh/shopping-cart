@@ -8,7 +8,7 @@
 ---
 ## tips
 * You can add products in shopping cart or remove them
-​* Save information and products in local storage
+* Save information and products in local storage
 * Products are render from products.js file
 * Fully responsive for mobile, tablet, laptop and desktop
 ---
