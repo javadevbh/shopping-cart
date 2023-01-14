@@ -4,7 +4,7 @@
 
 ---
 # OnlineShop
-## [review online](https://javadbahrami-hiddenshop.netlify.app/)
+## [review online](https://javadevbh.github.io/shopping-cart/)
 ---
 ## tips
 * You can add products in shopping cart or remove them
@@ -21,4 +21,4 @@
 * *[Email](mailto:javadev14bh@gmail.com)*
 * *[Telegram](https://t.me/LjvdL/)*
 * *[Instagram](https://instagram.com/jvd_bh/)*
-* *[LinkedIn](https://https://www.linkedin.com/in/javad-bahrami-79b349259/)*
+* *[LinkedIn](https://www.linkedin.com/in/javad-bahrami-79b349259/)*
